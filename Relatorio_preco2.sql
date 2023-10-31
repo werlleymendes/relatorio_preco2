@@ -1,10 +1,3 @@
-SELECT * FROM consinco.map_familia a;
-SELECT * FROM consinco.map_produto;
-SELECT * FROM consinco.map_famdivcateg;
-SELECT * FROM consinco.map_categoria;
-
-
-
 SELECT a.seqproduto, b.desccompleta,a.qtdembalagem, a.precobasenormal, e.caminhocompleto
        from consinco.mrl_prodempseg a
             join consinco.map_produto              b ON a.seqproduto = b.seqproduto
